@@ -1052,6 +1052,164 @@ label{
     font-size: 1.8rem;
 }
 
+/* graphic design starts here */
+.price-title{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.price-title i{
+    width: 4rem;
+    background-color: #0061B1;
+    height: .2rem;
+}
+.price-con-head{
+    font-size: 3.2rem;
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem;
+}
+.price-container p{
+    font-size: 1.4rem;
+    width: 50%;
+    text-align: center;
+    color: #696970;
+}
+.price-card-header{
+    font-size: 3.2rem;
+    color: #ff7f50;
+    text-align: center;
+}
+.price{
+    font-size: 2.4rem;
+    color: white;
+}
+.price-card img{
+    height: 1.8rem;
+}
+.price-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #0061b1, #875db6, #cc56a0, #f55e7a, #ff7f50);
+    padding: 6rem;
+    border-radius: 2rem;
+}
+.vmarket-card{
+    padding: 4rem;
+}
+.price-feature-wrapper{
+    margin: 1rem 0;
+}
+.price-feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: .5rem 0;
+}
+.price-feature span{
+    font-size: 1.8rem;
+    color: white;
+}
+.price-card-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4rem;
+    padding: 4rem;
+}
+.contact-btn button{
+    background-color: #ff7f50;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.contact-btn button:hover{
+    background-color: #0061B1;
+    transition: .3s;
+}
+.graphic-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-image: url(./photosrc/webdevelopemnt-pg.jpg);
+    background-size: cover;
+    padding: 4rem;
+}
+.graphic-form h1{
+    font-size: 3.2rem;
+    color: white;
+}
+label{
+    font-size: 1.6rem;
+}
+form{
+    padding: 4rem;
+}
+.form-container{
+    background-color: white;
+    padding: 2rem;
+}
+.form-ctrl{
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+    gap: 6rem;
+}
+.client-info h1{
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    color: #0061b1;
+}
+.form-ctrl input,select,textarea{
+    outline: none;
+    padding: .5rem;
+    width: 60rem;
+}
+.form-btn button{
+    background-color: #ff7f50;
+    color: white;
+    padding: 1rem 5rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.form-btn button:hover{
+    background-color: #0061B1;
+    transition: .3s ease-in-out;
+    color: white;
+    border: none;
+}
+.boosting-card{
+    padding: 4rem;
+}
+.video-card-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.boosting-card-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.advance-container{
+    background-image: url(./photosrc/blogbanner.jpg);
+    color: white;
+}
+.advance-container p{
+    color: white;
+}
+.advance-container .price-con-head{
+    color: #ff7f50;
+}
 
 
 @media (max-width:767px){
@@ -1067,7 +1225,7 @@ label{
     .who-we-are,.analysis-container,.social-media-container,.field-container,.blog-pg-container,.service-wrapper{
         flex-direction: column;
     }
-    .ser-cards-container,.testimonial-card-container,.blog-card-container,.footer-container,.team-card-container,.other-card-container{
+    .ser-cards-container,.testimonial-card-container,.blog-card-container,.footer-container,.team-card-container,.other-card-container,.price-card-wrapper{
         grid-template-columns: auto;
         display: grid;
     }
@@ -1099,6 +1257,12 @@ label{
     }
     .field-container{
         flex-direction: row;
+    }
+    .price-card-wrapper{
+        grid-template-columns: auto auto auto;
+    }
+    .boosting-card-wrapper{
+        grid-template-columns: auto auto;
     }
 }
 @media (min-width:769px) and (max-width:1024px){
